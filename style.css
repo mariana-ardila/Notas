@@ -4,7 +4,7 @@
 
 .header {
   background-color: rgba(137, 252, 231, 0.592);
-  height: 30vh;
+  height: 35vh;
 position: fixed;
 margin: 0;
   width: 98%;
@@ -23,9 +23,40 @@ margin: 0;
   left: 85%;
 }
 
+.nav{
+
+  background-color: rgb(246, 214, 172);
+  position: fixed;
+  top:200px;
+  height: 300px;
+  width: 200px;
+}
+
+.ul{
+  list-style: none;
+  }
+  
+.ul__li{
+  border: 2px solid;
+  position: relative;
+  right:20px;
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  background-color: rgb(240, 163, 96);
+
+}
+
+
 .footer {
   background-color: rgba(228, 211, 188, 0.592);
-  height: 300px;
+  height: 200px;
   position: relative;
   top: 500px;
+  padding: 20px;
 }
+
+.footer__h3 {
+ 
+}
+
